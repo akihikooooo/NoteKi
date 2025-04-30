@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.bg-main{
+    background: hsl(0, 0%, 92%);
+}
+.bg-sub{
+    background: hsl(0, 0%, 82%);
+}

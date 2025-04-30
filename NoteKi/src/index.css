@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../public/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat Italic";
+    src: url(../public/fonts/Montserrat-Italic-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Subrayada";
+    src: url(../public/fonts/MontserratSubrayada-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Subrayada Bold";
+    src: url(../public/fonts/MontserratSubrayada-Bold.ttf) format("truetype");
+}
+
+@theme{
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-montserrat-italic: "Montserrat Italic", sans-serif;
+    --font-montserrat-subrayada: "Montserrat Subrayada", sans-serif;
+    --font-montserrat-subrayada-bold: "Montserrat Subrayada Bold", sans-serif;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
