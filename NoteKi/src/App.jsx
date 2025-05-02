@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Scrollbar } from 'react-scrollbars-custom';
 import Header from './ui/Header';
+import Sidebar from './ui/Sidebar';
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
     <>
     <div className='flex flex-col bg-main'>
       <Header tabTitle={tabTitle}/>
+      <div id="main"
+        className='flex flex-row'>
+          <Sidebar/>
+          </div>
     </div>
     </>
   )

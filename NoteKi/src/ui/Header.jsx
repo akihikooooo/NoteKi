@@ -5,7 +5,7 @@ export default function Header(props) {
             className="flex justify-between items-center bg-sub text-black py-2 px-4">
             <div id="logo-container" 
                 className="flex items-center font-montserrat-subrayada">
-                    <p>NoteKi</p>
+                    <img src="./assets/logo/NoteKi_v2.svg" style={{height: '30px'}}/>
             </div>
             <div id="page-title"
             className="font-montserrat font-medium text-black">
