@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
+:root {
+    --main: hsl(0, 0%, 92%);
+    --sub: hsl(0, 0%, 82%);
+    --black: hsl(240, 100%, 25%);
+}
+
 .bg-main{
-    background: hsl(0, 0%, 92%);
+    background: var(--main);
 }
 .bg-sub{
-    background: hsl(0, 0%, 82%);
+    background: var(--sub);
 }

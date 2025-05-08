@@ -1,0 +1,15 @@
+@import "../App.css";
+
+.input:after{
+    content: "";
+    display:block;
+    margin-right:auto;
+    height:3px;
+    width:0px;
+    background: var(--black);
+    border-radius: 50px;
+    transition: width 0.5s ease-in-out, background 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.input:focus-within:after{
+    width:100%;
+}
